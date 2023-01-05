@@ -1,0 +1,30 @@
+What HTML would be useful for the game board itself?
+
+    Divs, <canvas>, span? 
+
+How could you represent a played-piece in the HTML board?
+
+    On the screen youd have to keep it a consistant color. After the 
+    peice is played you could add to it a "completed" class to identify
+    it as a played peice. 
+
+In the javaSript, what would be a good structure for the in-memory game board?
+
+    Tough one. 
+
+What might the flow of the game be?
+
+    when a player clicks on a columb a new div is created and a particular CSS
+    style is added onto the new div. The new div then goes to the next available
+    spot in the columb and stays there. Would need a function that creates the Divs
+    and is passed into the onclick function. There would also need to be another
+    function to tell the div where to stop. 
+
+Functions:
+
+    makeToken()
+    (This would make a new div and would later be passed into an onCLick function)
+
+    tokenPlacement()
+    (This function would tell the token where to go on the click,
+    possibly passed in later to the OnClick function)
